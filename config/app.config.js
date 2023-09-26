@@ -6,7 +6,7 @@ const path = require('path');
 const config = {
 	$meta: 'This file defines all AWS configurations for this project.',
 	port:{
-		$env: 'PORT',
+		$env: 'APP_PORT',
 		$default: 4000,
 	},
 	env:{
